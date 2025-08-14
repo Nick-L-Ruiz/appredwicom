@@ -1,0 +1,48 @@
+# Archivos de sistema
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Archivos de IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter/Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+/build/
+.melos_tool/
+
+# Archivos generados por Android Studio / Xcode
+/android/app/debug
+/android/app/profile
+/android/app/release
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+
+# Archivos de depuración
+app.*.symbols
+app.*.map.json
+
+# Archivos de Firebase (si se configuran en local y no deben ser públicos)
+# google-services.json
+# GoogleService-Info.plist
